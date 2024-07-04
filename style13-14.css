@@ -1,0 +1,81 @@
+input::placeholder {
+    color: royalblue;
+    background-color: lightpink;
+}
+
+textarea::placeholder {
+    color: lightcoral;
+    font-weight: 700;
+}
+
+.with-custom-file-button::file-selector-button {
+    height: 40px;
+    padding-inline: 15px;
+    color: lightgreen;
+    background-color: lightgoldenrodyellow;
+    border: 2px dashed rosybrown;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.special-first-letter::first-letter {
+    margin-right: 15px;
+    padding: 12px 24px;
+    font-size: 3em;
+    color: cadetblue;
+    background-color: lightpink;
+    border: 1px solid palevioletred;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 lightblue;
+}
+
+.custom-selection::selection {
+    color: thistle;
+    background-color: lightgoldenrodyellow;
+    text-shadow: 2px 2px 2px 2px yellow;
+    text-decoration: wavy;
+}
+
+.red-marker::marker {
+    color: red;
+}
+
+.smile-marker::marker {
+    content: "😃";
+}
+
+article:nth-child(odd) {
+    color: royalblue;
+}
+
+article:nth-child(even) {
+    color: red;
+}
+
+button {
+    margin-right: 15px;
+    padding: 12px 24px;
+    font-size: 13px;
+    font-weight: bold;
+    color: cadetblue;
+    background-color: lightpink;
+    border: 1px solid palevioletred;
+    border-radius: 10px;
+}
+
+.hover:hover {
+    background-color: lightgoldenrodyellow;
+}
+
+.focus:focus {
+    box-shadow: 0 0 10px 10px lightgoldenrodyellow;
+}
+
+.focus-visible:focus-visible {
+    box-shadow: 0 0 10px 10px lightgoldenrodyellow;
+}
+
+.active:active {
+    color: thistle;
+    background-color: lightgoldenrodyellow;
+}
